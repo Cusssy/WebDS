@@ -141,6 +141,9 @@ ul {
 
 .submenu {
   float: left;
+  display: inline;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 li a {
@@ -160,4 +163,15 @@ li a:hover {
 }
 .carousel-indicators{
   object-fit: cover;
+}
+#menu-video{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
 }
