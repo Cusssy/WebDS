@@ -150,7 +150,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 14px;
   text-decoration: none;
 }
 
@@ -159,19 +159,8 @@ li a:hover {
   background-color: #111;
 }
 .activado {
-  background-color: #04AA6D;
+  background-color: #74b9f0;
 }
 .carousel-indicators{
   object-fit: cover;
-}
-#menu-video{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  left: 0;
 }
